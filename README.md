@@ -36,9 +36,6 @@ Specifically, below are some examples to run experiments on ModelNet40 dataset u
 * PointNet: `python ./train.py --dataset modelnet40_points --method baseline --num_points 1024`
 Similarly, you can use other 3D datasets. Please refer to io_utils.py for additional options.
 
-## Results
-* The test results will be recorded in `./record/results.txt`
-
 ## References
 We have modified and built upon the following publicly available code:
 * Few-shot Framework and Methods: 
